@@ -14,7 +14,7 @@ export default meta => ({ children }) => <MDXProvider components={theme.componen
     <meta name="twitter:description" content={meta.description} />
   </Head>
   <theme.Container>
-    <theme.components.h1>Synthesist in the Shell</theme.components.h1>
+    <theme.components.h1>Steven‘s Blog</theme.components.h1>
     <theme.Nav url={meta.url}/>
     <theme.Content>{children}</theme.Content>
     <theme.Footer/>

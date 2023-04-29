@@ -7,7 +7,7 @@ import theme from '../theme'
 export default meta => withRouter(({ children, router }) => {
   return <MDXProvider components={theme.components, theme.TemplateList}><>
   <Head>
-    <title>Synthesist in the Shell | {meta.title}</title>
+    <title>Steven‘s Blog | {meta.title}</title>
   </Head>
   <theme.Container>
     <theme.components.h1>{meta.title}</theme.components.h1>
