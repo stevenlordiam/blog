@@ -8,7 +8,7 @@ export default meta => withRouter(({ children, router }) => {
   const rootPath = router.pathname.split('/').slice(0, -1).join('/')
   return <MDXProvider components={theme.components, theme.TemplateList}><>
   <Head>
-    <title>Steven‘s Blog | {meta.title}</title>
+    <title>寻星柳边 | {meta.title}</title>
   </Head>
   <theme.Container>
     <theme.components.h1>{meta.title}</theme.components.h1>
