@@ -5,8 +5,8 @@ const path = require('path')
 function generate() {
   const feed = new RSS({
     title: 'Steven\'s Blog',
-    site_url: 'https://stevenlordiam.com',
-    feed_url: 'https://stevenlordiam.com/feed.xml'
+    site_url: 'https://stevenliu.one',
+    feed_url: 'https://stevenliu.one/feed.xml'
   })
 
   const content = []
