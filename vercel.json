@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "alias": "stevenlordiam.github.io/",
+  "alias": "stevenlordiam.github.io",
   "builds": [
     { "src": "package.json", "use": "@vercel/next@canary" }
   ],
