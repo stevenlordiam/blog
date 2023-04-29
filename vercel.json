@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "alias": "stevenlordiam.com",
+  "builds": [
+    { "src": "package.json", "use": "@vercel/next@canary" }
+  ],
+  "headers": [
+    {
+      "source": "/public",
+      "headers": [
+        { "key": "cache-control", "value": "public, max-age=31536000, immutable" }
+      ]
+    }
+  ],
+  "rewrites": [
+    { "source": "/about", "destination": "/" }
+  ]
+}
