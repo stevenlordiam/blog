@@ -8,7 +8,7 @@ export default function Disqus () {
         window['DISQUS'].host._loadEmbed()
       } else {
         const d = document, s = d.createElement('script')
-        s.src = 'https://stevenlordiam.disqus.com/embed.js'
+        s.src = 'https://stevenliu.disqus.com/embed.js'
         s.setAttribute('data-timestamp', '' + Date.now())
         ;(d.head || d.body).appendChild(s)
       }
