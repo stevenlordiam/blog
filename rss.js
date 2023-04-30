@@ -10,10 +10,10 @@ function generate() {
   })
 
   const content = []
-  fs.readdirSync(path.join(__dirname, 'pages', 'notes')).forEach(function(file) {
+  fs.readdirSync(path.join(__dirname, 'pages', 'novels')).forEach(function(file) {
     content.push({
-      content: fs.readFileSync(path.join(__dirname, 'pages', 'notes', file)).toString(),
-      url: `/notes/${file.replace('.mdx', '')}`
+      content: fs.readFileSync(path.join(__dirname, 'pages', 'novels', file)).toString(),
+      url: `/novels/${file.replace('.mdx', '')}`
     })
   })
   fs.readdirSync(path.join(__dirname, 'pages', 'posts')).forEach(function(file) {

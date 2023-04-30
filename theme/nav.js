@@ -8,10 +8,10 @@ const Item = ({ name, path, active }) => {
 }
 
 export default ({ url }) => <div className='navigation'>
-  <Item name='POSTS' path='/posts' active={url === '/posts'}/>
-  <Item name='NOTES' path='/notes' active={url === '/notes'}/>
-  <Item name='TAGS' path='/tags' active={url === '/tags'}/>
-  <Item name='ABOUT' path='/' active={url === '/'}/>
+  <Item name='文章' path='/posts' active={url === '/posts'}/>
+  <Item name='小说' path='/novels' active={url === '/novels'}/>
+  <Item name='标签' path='/tags' active={url === '/tags'}/>
+  <Item name='关于我' path='/' active={url === '/'}/>
 
   <style jsx>{`
     .navigation {
