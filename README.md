@@ -11,4 +11,5 @@
 
 ---
 Website code open sourced under MIT.
+
 Website content licensed under CC BY-NC-ND 4.0.
