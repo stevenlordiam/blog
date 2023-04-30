@@ -9,5 +9,6 @@
 
 - Every push to main gets deployed to the **[Vercel](https://vercel.com)**
 
+---
 Website code open sourced under MIT.
 Website content licensed under CC BY-NC-ND 4.0.
